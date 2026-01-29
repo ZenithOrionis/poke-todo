@@ -1,6 +1,6 @@
 {
-    "name": "pokemon_todo",
-    "short_name": "pokemon_todo",
+    "name": "PokeToDo",
+    "short_name": "PokeToDo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

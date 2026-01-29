@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pokemon Todo'),
+        title: const Text('PokeToDo'),
         actions: [
           IconButton(
             icon: const Icon(Icons.catching_pokemon),

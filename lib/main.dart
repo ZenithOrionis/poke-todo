@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => TodoProvider()),
       ],
       child: MaterialApp(
-        title: 'Pokemon Todo',
+        title: 'PokeToDo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
