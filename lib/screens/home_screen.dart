@@ -32,9 +32,9 @@ class HomeScreen extends StatelessWidget {
                     opacity: 0.5,
                     child: Image.network(
                       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png', // Fallback or local asset would be better
-                      height: 100,
-                      width: 100,
-                      errorBuilder: (_,__,___) => const Icon(Icons.catching_pokemon, size: 100, color: Colors.grey),
+                      height: 200,
+                      width: 200,
+                      errorBuilder: (_,__,___) => const Icon(Icons.catching_pokemon, size: 200, color: Colors.grey),
                     ),
                   ),
                   const SizedBox(height: 16),

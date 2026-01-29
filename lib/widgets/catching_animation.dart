@@ -60,8 +60,8 @@ class _CatchingAnimationState extends State<CatchingAnimation> with SingleTicker
                 turns: _rotateAnimation,
                 child: Image.network(
                   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png',
-                  width: 100,
-                  height: 100,
+                  width: 250,
+                  height: 250,
                 ),
               ),
             ),
