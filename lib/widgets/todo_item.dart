@@ -74,11 +74,13 @@ class TodoItem extends StatelessWidget {
               ? Text('Partner: ${todo.pokemonName!.toUpperCase()}', 
                   style: TextStyle(color: Colors.grey[600], fontSize: 12)) 
               : null,
-          trailing: Checkbox(
-            value: todo.isCompleted,
-            activeColor: Colors.red,
-            onChanged: (value) {
-              Provider.of<TodoProvider>(context, listen: false).toggleTodo(todo.id);
+          trailing: IconButton(
+            icon: const Icon(Icons.delete_outline, color: Colors.grey),
+            onPressed: () {
+               Provider.of<TodoProvider>(context, listen: false).deleteTodo(todo.id);
+               ScaffoldMessenger.of(context).showSnackBar(
+                 SnackBar(content: Text('${todo.title} removed')),
+               );
             },
           ),
         ),
