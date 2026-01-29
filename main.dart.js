@@ -85827,7 +85827,7 @@ A.abv.prototype={
 a3r(a){$.aua().m(0,this,a)}}
 A.Lw.prototype={
 M(a){var s=null,r=A.c([new A.x7(new A.uZ(new A.aaG(),s,s,A.aU5(),A.aSR(),t.wP),s,s,s,s,t.hk)],t.Ds)
-return A.aLL(new A.zw(B.EY,"Pokemon Todo",A.qe(B.A0,s,A.ayu(B.a3,s,B.cg,B.k,B.cg),B.iP,A.aUk().$0(),!0),!1,s),r)}}
+return A.aLL(new A.zw(B.EY,"PokeToDo",A.qe(B.A0,s,A.ayu(B.a3,s,B.cg,B.k,B.cg),B.iP,A.aUk().$0(),!0),!1,s),r)}}
 A.aaG.prototype={
 $1(a){var s=new A.hV(A.c([],t.Q6),new A.abS(),$.aw())
 s.wY()
@@ -85947,8 +85947,8 @@ break
 case 6:case 1:return A.G(q,r)
 case 2:return A.F(o.at(-1),r)}})
 return A.H($async$xI,r)},
-M(a){var s=this,r=null,q=A.ay2(r,B.TE),p=A.hR("What do you need to do?",r,r,r,A.a0(a).ok.f,B.dL,r),o=A.aOh(s.e,A.azD(r,new A.hK(4,A.lQ(12),B.lM),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Task Title",!0,!0,r,B.Fc,r,r,r,r,r,r,r,r,r,r,r,r),new A.aiM())
-p=A.c([p,B.Om,o,B.On,s.f?B.BY:A.aK1(B.nC,B.TG,s.gagX(),A.aK2(r,r,B.cg,r,r,r,r,r,r,B.k,r,r,B.Eg,r,new A.cz(A.lQ(12),B.q),r,r,r,B.So,r))],t.E)
+M(a){var s=this,r=null,q=A.ay2(r,B.TF),p=A.hR("What do you need to do?",r,r,r,A.a0(a).ok.f,B.dL,r),o=A.aOh(s.e,A.azD(r,new A.hK(4,A.lQ(12),B.lM),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Task Title",!0,!0,r,B.Fc,r,r,r,r,r,r,r,r,r,r,r,r),new A.aiM())
+p=A.c([p,B.Om,o,B.On,s.f?B.BY:A.aK1(B.nC,B.TH,s.gagX(),A.aK2(r,r,B.cg,r,r,r,r,r,r,B.k,r,r,B.Eg,r,new A.cz(A.lQ(12),B.q),r,r,r,B.So,r))],t.E)
 if(s.f)p.push(B.KZ)
 p=A.a0a(p,B.ee,B.bo,B.eF)
 return A.aB4(q,new A.cy(B.Ek,new A.yC(p,B.iz,s.d),r),r)}}
@@ -85964,7 +85964,7 @@ return null},
 $S:557}
 A.Kg.prototype={
 M(a){var s=null
-return A.aB4(A.ay2(A.c([A.a5u(s,s,B.nC,s,s,new A.a5c(),s,s,s)],t.E),B.TH),new A.xr(new A.a5d(),s,s,t.OM),new A.rQ(B.Fd,B.k,B.cg,new A.a5e(a),B.TC,s))}}
+return A.aB4(A.ay2(A.c([A.a5u(s,s,B.nC,s,s,new A.a5c(),s,s,s)],t.E),B.TC),new A.xr(new A.a5d(),s,s,t.OM),new A.rQ(B.Fd,B.k,B.cg,new A.a5e(a),B.TD,s))}}
 A.a5c.prototype={
 $0(){},
 $S:0}
@@ -92030,8 +92030,8 @@ B.KX=new A.LS(0,"nearestOverlay")
 B.KY=new A.LS(1,"rootOverlay")
 B.Ef=new A.aP(0,16,0,0)
 B.T8=new A.n(!0,B.hh,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TF=new A.hg("Searching for wild Pokemon...",null,B.T8,B.dL,null,null,null,null,null)
-B.KZ=new A.cy(B.Ef,B.TF,null)
+B.TG=new A.hg("Searching for wild Pokemon...",null,B.T8,B.dL,null,null,null,null,null)
+B.KZ=new A.cy(B.Ef,B.TG,null)
 B.bS=new A.LY(0,"fill")
 B.bc=new A.LY(1,"stroke")
 B.L_=new A.mE(1/0)
@@ -92345,8 +92345,8 @@ B.Oy=new A.jE(5,"timeout")
 B.Oz=new A.ug(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TI=new A.hg("Failed to catch Pokemon (Error adding task)",null,null,null,null,null,null,null,null)
 B.OA=new A.n5(B.TI,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.V,null)
-B.TD=new A.hg("Task added! A wild Pokemon appeared!",null,null,null,null,null,null,null,null)
-B.OB=new A.n5(B.TD,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.V,null)
+B.TE=new A.hg("Task added! A wild Pokemon appeared!",null,null,null,null,null,null,null,null)
+B.OB=new A.n5(B.TE,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.V,null)
 B.yL=new A.BH(0,"permissive")
 B.OC=new A.BH(1,"normal")
 B.OD=new A.BH(2,"forced")
@@ -92703,10 +92703,10 @@ B.Si=new A.n(!0,B.L,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.SE=new A.n(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.PI=new A.n(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.TB=new A.d_(B.Rr,B.Qv,B.Rs,B.RW,B.Q8,B.Qf,B.QN,B.RM,B.QZ,B.Sp,B.PA,B.PQ,B.Si,B.SE,B.PI)
-B.TC=new A.hg("New Task",null,null,null,null,null,null,null,null)
-B.TE=new A.hg("Add New Task",null,null,null,null,null,null,null,null)
-B.TG=new A.hg("Add Task & Catch Pokemon",null,null,null,null,null,null,null,null)
-B.TH=new A.hg("Pokemon Todo",null,null,null,null,null,null,null,null)
+B.TC=new A.hg("PokeToDo",null,null,null,null,null,null,null,null)
+B.TD=new A.hg("New Task",null,null,null,null,null,null,null,null)
+B.TF=new A.hg("Add New Task",null,null,null,null,null,null,null,null)
+B.TH=new A.hg("Add Task & Catch Pokemon",null,null,null,null,null,null,null,null)
 B.Q0=new A.n(!0,B.hh,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TJ=new A.hg("No tasks yet! Gotta catch 'em all!",null,B.Q0,null,null,null,null,null,null)
 B.X1=new A.ahE(0,"system")
