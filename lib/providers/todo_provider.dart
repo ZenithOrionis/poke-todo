@@ -57,6 +57,23 @@ class TodoProvider with ChangeNotifier {
     }
   }
 
+  void updateTodo(String id, String newTitle) {
+    final index = _todos.indexWhere((todo) => todo.id == id);
+    if (index != -1) {
+      final oldTodo = _todos[index];
+      _todos[index] = Todo(
+        id: oldTodo.id,
+        title: newTitle,
+        isCompleted: oldTodo.isCompleted,
+        pokemonId: oldTodo.pokemonId,
+        pokemonName: oldTodo.pokemonName,
+        pokemonImageUrl: oldTodo.pokemonImageUrl,
+      );
+      _saveTodos();
+      notifyListeners();
+    }
+  }
+
   void deleteTodo(String id) {
     _todos.removeWhere((todo) => todo.id == id);
     _saveTodos();
